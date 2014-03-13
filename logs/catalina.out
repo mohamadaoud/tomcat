@@ -1,0 +1,49 @@
+Mar 10, 2014 2:53:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/mdaoud/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Mar 10, 2014 2:53:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 10, 2014 2:53:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 10, 2014 2:53:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 601 ms
+Mar 10, 2014 2:53:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 10, 2014 2:53:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+Mar 10, 2014 2:53:01 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/mdaoud/Documents/tomcat/webapps/Content.war
+Mar 10, 2014 2:53:02 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [129] milliseconds.
+Mar 10, 2014 2:53:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mdaoud/Documents/tomcat/webapps/docs
+Mar 10, 2014 2:53:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mdaoud/Documents/tomcat/webapps/examples
+Mar 10, 2014 2:53:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mdaoud/Documents/tomcat/webapps/host-manager
+Mar 10, 2014 2:53:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mdaoud/Documents/tomcat/webapps/manager
+Mar 10, 2014 2:53:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 10, 2014 2:53:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 10, 2014 2:53:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1383 ms
+Mar 10, 2014 2:55:53 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/Content]
+Mar 10, 2014 2:55:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/mdaoud/Documents/tomcat/webapps/ROOT.war
+2014-03-11 12:17:12.499 java[4112:5f0f] Connection with distnoted server was invalidated
+Mar 11, 2014 12:17:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Mar 11, 2014 12:17:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 11, 2014 12:17:32 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 11, 2014 12:17:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Mar 11, 2014 12:17:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 11, 2014 12:17:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Mar 11, 2014 12:17:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
